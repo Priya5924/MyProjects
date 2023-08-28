@@ -39,7 +39,7 @@ public class Sbi implements Rbi{
 		System.out.println("Enter Balance");
 		double balance=sc.nextDouble();
 		
-		
+		acc.setAccno(accno);
 		
 		
 		
@@ -48,6 +48,7 @@ public class Sbi implements Rbi{
 	public void ShowDetails()
 	{
 		System.out.println("Show Details");
+		System.out.println("Account Id "+acc.getAccno());
 	}
 	@Override
 	public void DepositeAmmount()
