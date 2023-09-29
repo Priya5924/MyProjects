@@ -10,6 +10,8 @@ public class Test {
 		Scanner sc=new Scanner(System.in);
 		
 		Rbi bank=new Sbi();
+		while(true)
+		{
 		
 		System.out.println("Select-----\n"
 				+"1 AccountCreate\n"
@@ -38,8 +40,7 @@ public class Test {
 		else if(ch==5)
 			bank.BalanceCheck();
 		
-		
-		else {
+		else if(ch==6) {
 			System.out.println("Please enter correct choice");
 		}
 		
@@ -47,4 +48,4 @@ public class Test {
 		
 	}
 
-}
+}}
